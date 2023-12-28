@@ -23,7 +23,7 @@ int main() {
             result = number1 * number2;
             break;
         case '/':
-            if (number1 != 0) {
+            if (number2 != 0) {
                 result = number1 / number2;
             } else {
                 std::cout << "Nao é possivel realizar uma divisao por 0." << '\n';
